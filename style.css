@@ -49,8 +49,7 @@
     display: flex; flex-wrap: wrap; background-size: contain;
 }
  
-#image{
-    height: 65vh; width: 100%;}
+
 
 #header{
     background-color: rgb(252,252,253);
@@ -175,10 +174,20 @@ h2{
 #sangamxervices{
     background-color:rgb(235,235,235) ;
 }
-@media only screen and (max-width: 779px) {#imgg{ 
-   height: 300px;
-}}
+/* @media only screen and (max-width: 390px) {#imgg{ 
+  display: flex; height: 25vh; width:auto; flex-wrap: wrap;
+}} */
 .navbar-toggler{
     padding: 3px; border-width: 0px !important; 
 }
+#image{
+    height: 60vh; width: 100%;}
 
+@media only screen and (max-width: 450px) {#image{ 
+    height: 30vh; width: 60%; margin:auto ;
+      }}
+      
+      
+#imgg{
+    justify-content: center; display: flex; align-items: center;
+}
